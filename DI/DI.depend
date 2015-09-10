@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1438524316 source:c:\users\antony\desktop\jobs\second - di (deadline 6-29-2015, 09-08 to 10-16-2015)\3) finalist\di\main.cpp
+	"TTree.h"
+	"TFile.h"
+	<iostream>
+	<dirent.h>
+	<fstream>
+	<string>
+	<windows.h>
+	<stdio.h>
+	<math.h>
+

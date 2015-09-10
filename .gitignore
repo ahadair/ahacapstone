@@ -1,0 +1,17 @@
+*.pyc
+*.root
+app.py
+main.py
+plots.pyc
+DataSets/
+PICS/
+*.txt
+static/
+templates/
+Procfile
+interface/
+plugins/
+python/
+src/
+test/
+BuildFile.xml
