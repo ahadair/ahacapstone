@@ -1,0 +1,37 @@
+<!doctype html>
+<title>AAMovies</title>
+<link rel=stylesheet type=text/css href='{{ url_for('static',filename='style_lulu.css')}}'>
+<div class=page>
+  <h1>User Input</h1>
+  <div class=metanav>
+
+<h4>
+Please enter a Movie and Rating (Number of Stars 0 = worst, 5 = best).
+</h4>
+
+<form id='userinfoform_lulu' method='post' action='index' > <!-- action is the URL you want to move to next-->
+   <p>
+   Movie: <input type='text' name='movie_lulu' />
+   </p>
+   
+   1: <input type='radio' name='stars_lulu' value='1' /> <br />
+   2: <input type='radio' name='stars_lulu' value='2' /> <br />
+   3: <input type='radio' name='stars_lulu' value='3' /> <br />
+   4: <input type='radio' name='stars_lulu' value='4' /> <br />
+   5: <input type='radio' name='stars_lulu' value='5' /> <br />
+   
+   
+   <!--
+   Closing price: <input type='checkbox' name='answer_from_layout_lulu' value={{ans1}} /> {{ans1}} <br />
+   Adjusted closing price: <input type='checkbox' name='answer_from_layout_lulu' value={{ans2}} /> {{ans2}} <br />
+   Volume: <input type='checkbox' name='answer_from_layout_lulu' value={{ans3}} /> {{ans3}} <br />
+   -->
+   
+   <p>
+   <input type='submit' value='Submit' /> <!-- value is the text that will appear on the button. -->
+   </p>
+   
+</form>
+
+</div>
+</div>
