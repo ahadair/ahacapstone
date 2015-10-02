@@ -1,4 +1,7 @@
 *.pyc
 *.root
+Code/
 DataSets/
+DataSets2/
 old/
+CapstoneNotes.txt
